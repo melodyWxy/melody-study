@@ -2,7 +2,7 @@
   这是课件资料 
 
 ## 课表
-  <a href='./courseware.md>'>课表1.0</a>
+  <a href='./courseware.md'>课表1.0</a>
 
 ## 0.为什么学习react
   <a href ='/doc/0.为什么学习react/0-0.about-react.md'>0-0.about-react</a> 
