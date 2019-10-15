@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"  />
+    <title>Hello World</title>
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+</head>
+   
+<body>
+     <div id="app"></div>
+     <!-- 下面是我们的react代码 -->
+     <script type="text/babel">
+
+        function Parent(){
+            console.log(this);
+            this.a =1;
+            return (
+                <div>
+                    123
+                </div>
+            ) 
+        }
+
+
+        //挂载节点
+        ReactDOM.render(
+            new Parent(),
+            document.getElementById('app')
+        );
+
+     </script>
+</body>
+
+</html>
+<!-- // 1 计数器  2class -->
+
+
+<!-- open /Applications/Google\ Chrome.app/ --args --disable-web-security -->
