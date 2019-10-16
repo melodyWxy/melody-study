@@ -6,23 +6,22 @@
 - 闭包与单向数据流与props限制级
 - 类与生命周期的实现
 - 闭包与作用域链=>实例的通信=>所有框架的组件间的通用通信方式=>react组件间通信
+### 1分钟入门React
+- React系框架的本质思想： M=>V  与 生命周期钩子
+- V=>M :  交互与this.setState
+- 用react逐步实现微拍堂首页page
+- react-melody-stagging脚手架
+
 ### dom节点的挂载与组件的挂载
 - 字符串模板 与 jsx
 - 写样式的两种形式
 - 挂载
 - react-dom
-### 结合案例    
-- react-melody-stagging脚手架
-- 用react逐步实现微拍堂首页page
-### React中的组件生命周期钩子历程
-- Props与State的限制级
-- 实现类的生命周期
-- React的生命周期
-- js框架的本质：原型机(父类模型)+模板解析.js
-- 如何实现一个mvc框架
+
 ### MVVM本质与this.setState实现数据双向绑定
-- React系框架的本质思想： M=>V  与 生命周期钩子
-- V=>M :  交互与this.setState
+- Props与State的限制级
+- js框架的本质：原型机(父类模型)+模板解析+render机制.js
+- 如何实现一个mvc框架
 - 如何实现一个MVVM框架
 - v-dom与diff与key
 - v-dom的优势?
