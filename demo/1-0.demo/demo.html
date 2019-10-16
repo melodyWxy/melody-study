@@ -13,19 +13,18 @@
      <!-- 下面是我们的react代码 -->
      <script type="text/babel">
 
-        function Parent(){
-            console.log(this);
-            this.a =1;
-            return (
-                <div>
-                    123
-                </div>
-            ) 
+        class A extends React.Component{
+
+            render(){
+                return 1
+            }
+
+
         }
 
         //挂载节点
         ReactDOM.render(
-            new Parent(),
+            <A />,
             document.getElementById('app')
         );
 
