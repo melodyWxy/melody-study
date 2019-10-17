@@ -21,7 +21,7 @@
   
 ## 3.玩玩react 
   <a href='/doc/3.玩玩react/3.0.react-melody-stagging脚手架.md'>3-0.react-melody-stagging脚手架</a><br/>
-  <a href='/doc/3.玩玩react/3.1 用react逐步实现微拍堂首页page.md'>3-1.react-melody-stagging脚手架</a><br/>
+  <a href='/doc/3.玩玩react/3.1 用react逐步实现微拍堂首页page.md'>3-1.用react逐步实现微拍堂首页page</a><br/>
 
  
 
