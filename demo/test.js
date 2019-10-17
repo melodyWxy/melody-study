@@ -24,32 +24,32 @@
 // lg(obj instanceof Function) //false
 
 // lg( fn instanceof Object) //true
-    class Component {
-        constructor(props){
-            this.componentWillRender();
-            this.render();
-            this.componentDidRender();
-        }
-        state=1;
-        componentWillRender=()=>{
-            console.log('componentWillRender')
-        }
-        render=()=>{
-            console.log('render');
-        }
-        componentDidRender=()=>{
-            console.log('componentDidRender')
-        }
-    }
-    new Component();
-    class Child extends Component{
-        constructor(){
-            super();
-            this.num = 10;
-        }
-        state =2;
-        componentDidRender=()=>{
-            console.log('可以改写方法')
-        }
-    }
-    new Child();
+    // class Component {
+    //     constructor(props){
+    //         this.componentWillRender();
+    //         this.render();
+    //         this.componentDidRender();
+    //     }
+    //     state=1;
+    //     componentWillRender=()=>{
+    //         console.log('componentWillRender')
+    //     }
+    //     render=()=>{
+    //         console.log('render');
+    //     }
+    //     componentDidRender=()=>{
+    //         console.log('componentDidRender')
+    //     }
+    // }
+    // new Component();
+    // class Child extends Component{
+    //     constructor(props){
+    //         super(props);
+    //         this.num = 10;
+    //     }
+    //     state =2;
+    //     componentDidRender=()=>{
+    //         console.log('可以改写方法')
+    //     }
+    // }
+    // new Child();
