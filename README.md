@@ -1,5 +1,5 @@
 # melody-study
-  这是课件资料 
+   内含毕生所学，请配合录制的讲解视频食用。 --六弦
 
 ## 课表
   <a href='./courseware.md'>课表1.0</a>
