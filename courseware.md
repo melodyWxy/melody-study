@@ -9,6 +9,7 @@
 ### 1分钟入门React
 - React系框架的本质思想： M=>V  与 生命周期钩子
 - V=>M :  交互与this.setState
+- 2-3.React的生命周期钩子
 - 用react逐步实现微拍堂首页page
 - react-melody-stagging脚手架
 
@@ -18,7 +19,7 @@
 - 挂载
 - react-dom
 
-### MVVM本质与this.setState实现数据双向绑定
+### React有点东西
 - Props与State的限制级
 - js框架的本质：原型机(父类模型)+模板解析+render机制.js
 - 如何实现一个mvc框架
