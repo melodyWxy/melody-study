@@ -10,8 +10,10 @@
 - React系框架的本质思想： M=>V  与 生命周期钩子
 - V=>M :  交互与this.setState
 - 2-3.React的生命周期钩子
-- 用react逐步实现微拍堂首页page
+
+### 玩玩react
 - react-melody-stagging脚手架
+- 用react逐步实现微拍堂首页page
 
 ### dom节点的挂载与组件的挂载
 - 字符串模板 与 jsx
