@@ -21,7 +21,7 @@
 - 挂载
 - react-dom
 
-### React有点东西
+### 总结React：有点东西
 - Props与State的限制级
 - js框架的本质：原型机(父类模型)+模板解析+render机制.js
 - 如何实现一个mvc框架
