@@ -24,4 +24,4 @@
   <a href='/doc/3.玩玩react/3.1 用react逐步实现微拍堂首页page.md'>3-1.用react逐步实现微拍堂首页page</a><br/>
 
 ## 4.dom节点的挂载与组件的挂载
-  <a href='/doc/4.dom节点的挂载与组件的挂载/4-0.4-0.dom节点的挂载.md'>4-0.4-0.dom节点的挂载</a><br/>
+  <a href='/doc/4.dom节点的挂载与组件的挂载/4-0.dom节点的挂载.md'>4-0.dom节点的挂载</a><br/>
