@@ -25,3 +25,14 @@
 
 ## 4.dom节点的挂载与组件的挂载
   <a href='/doc/4.dom节点的挂载与组件的挂载/4-0.dom节点的挂载.md'>4-0.dom节点的挂载</a><br/>
+
+## 5.组合与继承
+<a href='/doc/5.组合与继承/5-0.react中的插槽.md'>5-0.react中的插槽</a><br/>
+<a href='/doc/5.组合与继承/5-1.组合.md'>5-1.组合</a><br/>
+<a href='/doc/5.组合与继承/5-2.继承extends.md'>5-2.继承extends</a><br/>
+<a href='/doc/5.组合与继承/5-3.高阶组件预热.md'>5-3.高阶组件预热</a><br/>
+
+## s.路由与react-router-dom
+<a href='/doc/s.SPA与路由/1.路由的本质与实现.md'>s-1.继承extends</a><br/>
+<a href='/doc/s.SPA与路由/2.react-router-dom.md'>s-2.react-router-dom</a><br/>
+
