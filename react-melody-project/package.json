@@ -1,0 +1,59 @@
+{
+  "name": "react-melody-project",
+  "sideEffects": [
+    "*.css"
+  ],
+  "version": "1.0.0",
+  "description": "基于webpack4及配置规范的配置模版",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config ./config/webpack.pro.js",
+    "start": "webpack-dev-server --open --config ./config/webpack.dev.js",
+    "loader": "node ./src/cssString.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melodyWxy/wxy-webpack-config-template"
+  },
+  "author": "melodyWxy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melodyWxy/wxy-webpack-config-template/issues"
+  },
+  "homepage": "https://github.com/melodyWxy/wxy-webpack-config-template#readme",
+  "devDependencies": {
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "csv-loader": "^3.0.2",
+    "file-loader": "^2.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "jade-loader": "^0.8.0",
+    "postcss-less": "^3.0.2",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10",
+    "webpack-merge": "^4.1.4",
+    "xml-loader": "^1.2.1"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^1.0.1",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "style-loader": "^0.23.1"
+  },
+  "keywords": [
+    "config",
+    "webpack",
+    "melodyWxy"
+  ]
+}
