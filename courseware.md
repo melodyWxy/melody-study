@@ -21,9 +21,16 @@
 - 挂载
 - react-dom
 
+### 组合与继承
+- react中的插槽
+- 组合
+- 继承extends
+- 高阶组件预热
+
 ### 总结React：有点东西
 - Props与State的限制级
 - js框架的本质：原型机(父类模型)+模板解析+render机制.js
+- Flux架构
 - 如何实现一个mvc框架
 - 如何实现一个MVVM框架
 - v-dom与diff与key
