@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <button id='btn'>btn</button>
+        <button id='btn2'>btn2</button>
+        <button id='btn3'>btn3</button>
+        <button id='btn4'>btn4</button>
+</body>
+<script>
+    const btn = document.getElementById('btn');
+    const btn2 = document.getElementById('btn2');
+     const btn3 = document.getElementById('btn3');
+     const btn4 = document.getElementById('btn4');
+    window.onpopstate =  e=> {
+        console.log('popstate被触发了');
+        console.log(e);
+        
+    }
+    window.onhashchange =e=>{
+        console.log('hashchange被触发了');
+        console.log(location);
+    }
+    btn.onclick = e=>{
+        location.href += '#a';
+    }
+
+    btn2.onclick = e=>{
+        location.hash = '#b';
+    }
+    btn3.onclick = e=>{
+         history.back()
+   }
+
+</script>
+</html>
