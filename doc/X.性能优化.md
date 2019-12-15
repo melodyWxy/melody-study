@@ -7,7 +7,7 @@
     4  dns 预解析   <link rel="dns-prefetch"  value= 'xxx'/>
     5-1  减小资源体积 ：
         分包: 动态导入。import()    react => React.lazy 16.3
-        js： webpack2及以上自带tree shaking功能，
+        js： webpack2及以上自带tree shaking功能，splinchunk功能
         css：
         .glob-all 的作用就是帮助 PurifyCSS 进行路径处理，定位要做 Tree Shaking 的路径文件
         .extract-text-webpack-plugin  讲css提出css文件
