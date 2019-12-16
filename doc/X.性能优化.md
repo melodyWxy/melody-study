@@ -31,3 +31,7 @@
        类组件 PureComponent(相当于在ShouldComponentUpdate里做了浅比较,如果没区别就直接返回false，不二次render)、 shouldComponentUpdate 与 React.memo 
        函数式组件   useMemo  useCallback  等 
        <>空标签等  
+
+### node作为宿主环境的核心库
+libuv ： 处理事件循环的
+主要就是js和底层的交互，事件，io
