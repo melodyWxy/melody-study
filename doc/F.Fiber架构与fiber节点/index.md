@@ -3,9 +3,9 @@
 fiber node  :  对象
 
 {
-    return :  xxx 下一个单元任务的指针 
-    children:  xxx 子节点
-    sliping : xxx 兄弟节点
+    return :  xxx 指向父节点 
+    children:  xxx 指向第一个子节点
+    sliping : xxx 指向兄弟节点
     type: xxx
     ....
 }
